@@ -1,0 +1,197 @@
+body {
+  font-family: sans-serif;
+  color: var(--text-color);
+  background: var(--bg-color);
+  transition: 0.3s ease-out;
+  overflow-x: hidden;
+  border: 5px solid #5D2181;
+}
+
+
+
+details summary {
+  list-style: none;
+  cursor: help;
+}
+
+section{
+  border-bottom: 1px solid black ;
+}
+
+/* section:first-child img {
+  position: absolute;
+} */
+
+h1 {
+  display: flex;
+  font-size: 4rem;
+  z-index: 2;
+  line-height: 1.2;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  max-width: 400px;
+}
+
+details[open] summary {
+}
+
+
+.dropdown-menu{
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+
+
+.credit {
+  color: black;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  margin-left: 90%;
+}
+
+.year{
+  margin-left: 50%;
+  transform: translate( 5px ,130px);
+}
+
+.footerPhoto{
+  width: 100%;
+}
+
+.init {
+  position: fixed;
+  z-index: 1;
+  margin-right: 80%;
+}
+
+#ear{
+  width: 50%;
+}
+
+/* Primera seccion, con bio, etc */
+
+.title{
+  transform: translate(90px, 30px);
+  margin-bottom: 10%;
+}
+
+.carlaFoto{
+  width: 50%;
+  border: 3px dotted red;
+}
+
+.nav-title{
+  color: white;
+  border-bottom: 2px dotted black;
+}
+
+
+.bioSummary{
+  transform: translate(90px, -300px);
+}
+
+.bioo{
+  transform: translate(90px, -300px);
+  background-color: white;
+  color: #3E3D3C;
+  margin-top: 20px;
+  margin-right: 20%;
+  padding: 2%;
+}
+
+.iconoHeader{
+  width: 10%;
+  display: inline-block;
+  transform: translate(550px, -1000px);
+
+}
+
+/* Se acaba esa seccion */
+
+
+/* Seccion de Photography */
+
+.titlePhoto1{
+  color: (--text-color);
+  transform: translate(200px, -700px);
+}
+
+.titlePhoto{
+  font-size: 50px;
+  border: 1px solid red;
+  padding: 20px;
+}
+
+.photo1{
+  transform: translate(500px, -600px);
+  border: 1px solid black;
+  margin-right: 50%;
+  padding: 5px;
+
+}
+
+.biooPhoto{
+  transform: translate(500px, -600px);
+}
+
+.bioPhoto{
+  background-color: white;
+  padding: 10px;
+  width: 50%;
+
+}
+
+.carousel-inner{
+  width: 50%;
+  align-items: center;
+}
+/* Se acaba esa seccion */
+
+
+/* Los botones de avanzar y atras en el slide */
+#prevPhoto{
+  background-color: black;
+  opacity: 10%;
+  width: 20px;
+}
+
+#nextPhoto{
+  background-color: black;
+  opacity: 10%;
+  width: 20px;
+  transform: translate(-555px, 0);
+}
+
+
+/* Contact */
+.insta{
+  font-size: 20px;
+  color: #5D2181;
+  margin-left: 90%;
+}
+
+.mail{
+  font-size: 20px;
+  color: #5D2181;
+  margin-left: 90%;
+}
+
+
+
+
+
+
+
+
+
+
